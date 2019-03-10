@@ -1,1 +1,33 @@
-/* All styles for your Card Components live here */
+.content-top {
+    display: flex;
+    flex-direction: column;
+}
+
+    img {
+        /* max-width: 500px; */
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+
+.content-bottom {
+    display: flex;
+    flex-direction: column;
+
+    padding: 15px;
+    border: .5px solid black;
+}
+    .content-bottom a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a h2{
+        margin: 0px;
+    }
+    a p {
+        margin: 10px 0px;
+    }
+    .source a {
+        color: lightgray;
+    }

@@ -1,1 +1,49 @@
 /* All styles for your header Components live here */
+
+
+/* IMG THUMBNAIL */
+.ImgThumbnail img {
+    max-width: 100px;
+    max-height: 75px;
+    width: auto;
+    height: auto;
+    margin: 0px 5px;
+    padding-top: 20px;
+}
+
+.post-right {
+    display: flex;
+    flex-direction: column;
+}
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+        .HeaderTitle {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+            .userName {
+                display: flex;
+                margin: 0px;
+                margin-right: 5px;
+            }
+            .userHandle {
+                display: flex;
+                margin-right: 5px;
+            }
+            .date {
+                display: flex;
+            }
+                .dot, .dayNumber, .monthText {
+                    display: flex;
+                    margin: 0px;
+                    margin-right: 5px;
+                }
+
+
+    .cardContainer {
+        display: flex;
+        flex-direction: column;
+    }

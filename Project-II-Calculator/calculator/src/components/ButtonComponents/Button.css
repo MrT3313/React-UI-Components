@@ -1,0 +1,54 @@
+
+.actionButton, .standardButton, .largeButton, .result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+} 
+
+.result {
+    justify-content: flex-end;
+    padding-right: 25px;
+
+    background-color: black;
+    color: white;
+}
+
+    .calculatedResult {
+        margin-right: 15px;
+    }
+
+
+
+/* Styles With VARIABLES */
+
+const buttonStyle = '1px solid black'
+
+const lrgBtnStyles = {
+    border-right: 
+}
+
+.standardButton {
+    flex-grow: 1;
+    width: 25%;
+
+    background-color: white;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.largeButton {
+    width: 75%;
+    border-bottom: 1px solid black;
+}
+
+.actionButton {
+    width: 25%;
+    background-color: red;
+
+    border-bottom: 1px solid black;
+}
+
+
+
+

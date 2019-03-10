@@ -1,0 +1,22 @@
+.footerContainer {
+    display: flex;
+}
+
+.iconContainer {
+    display: flex; 
+    width:50%;
+    justify-content: space-between
+}
+
+p {
+    display: flex; 
+}
+
+.footerIcon, .footerIconCounter {
+    display: flex;
+}
+
+.footerIconCounter {
+    margin-left: 5px
+}
+
